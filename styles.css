@@ -53,7 +53,7 @@ nav li a {
 
 .features-display {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
 }
 
@@ -94,23 +94,41 @@ nav li a {
     display: block;
 }
 
+#submit-form > .btn {
+    margin-top: 10px;
+}
+
 .btn {
     display: block;
     margin: 0 auto;
 }
 
 #pricing {
-    display: flex;
+
 }
 
 .levels {
     display: flex;
-    justify-content: space-between;
-    flex-basis: 100%;
+    justify-content: center;
 }
 
 .options {
-    
+    border: 1px solid gray;
+    padding: 0 15px;
+    margin: 2rem;
+}
+
+.options > h2 {
+    text-align: center;
+}
+
+.options > ul {
+    list-style-type: none;
+}
+
+.btn-select {
+    width: 80%;
+    margin: 10px;
 }
 
 @media only screen and (min-width: 768px) {
